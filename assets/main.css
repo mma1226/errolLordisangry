@@ -1,0 +1,85 @@
+
+body {
+  background: #e5ff52;
+  color: #fff;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3em;
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  animation-name: heart;
+  animation-duration: 5s;
+
+  animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes heart {
+  from {background-color: red;}
+  to {background-color: yellow;
+  }
+
+}
+
+.text {color:#ff285a;
+font-family:'Amatic SC', cursive; }
+
+}
+.text {font-family: 'Amatic SC', cursive;
+font-size: 100px; 
+position: absolute;
+top:50%
+left: 50%; 
+transform: translate(-50%. -50%);}
+
+span{display:inline-block;
+font-weight:bolder;
+animation:mover 6s linear infinite;
+}
+
+@keyframes mover{ 0% {text-shadow: 0 0 30px rgba(0,0,0,0);}
+50% {text-shadow: 0 0 30px rgba(0,0,0,0.3);
+transform:translateY(30px);}
+
+100% {text-shadow: 0 0 30px rgba(0,0,0,0)}
+}
+
+span:nth-child(1)
+{animation-delay:0.5s;
+}
+span:nth-child(2)
+{animation-delay: 1s;
+}
+span:nth-child(3)
+{animation-delay:1.5s;}
+
+span:nth-child(4)
+{animation-delay: 2s;}
+
+span:nth-child(5)
+{animation-delay: 2.5s;}
+span:nth-child(6)
+{animation-delay:3s;}
+span:nth-child(7)
+{animation-delay:3.5s;} 
+span:nth-child(8)
+{animation-delay:4s;} 
+span:nth-child(9)
+{animation-delay:4.5s;} 
+span:nth-child(10)
+{animation-delay:5s;} 
+span:nth-child(11)
+{animation-delay:5.5s;}
+span:nth-child(12)
+{animation-delay:6s;}
+
+.bottom-left { color:#00ffcc;
+  position: absolute;
+  bottom: 16px;
+  left: 8px;
+}
+</style>
+</head>
+<body>
